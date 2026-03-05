@@ -1,0 +1,37 @@
+import styled from "styled-components";
+
+export const Menu = () => {
+    return (
+        <StyledMenu>
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">About Me</a>
+                </li>
+                <li>
+                    <a href="">Services</a>
+                </li>
+                <li>
+                    <a href="">Projects</a>
+                </li>
+                <li>
+                    <a href="">Testimonials</a>
+                </li>
+                <li>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </StyledMenu>
+    );
+};
+
+const StyledMenu=styled.nav`
+    ul{
+        display: flex;
+        gap: 30px;
+        list-style: none;
+    }
+`
+
