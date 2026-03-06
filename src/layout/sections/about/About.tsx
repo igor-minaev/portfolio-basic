@@ -2,6 +2,7 @@ import {SectionTitle} from "../../../components/SectionTitle.tsx";
 import photo from '../../../assets/images/photo-5.webp'
 import styled from "styled-components";
 import {FlexWrapper} from "../../../components/FlexWrapper.tsx";
+import {SectionDescription} from "../../../components/SectionDescription.tsx";
 
 export const About = () => {
     return (
@@ -10,9 +11,9 @@ export const About = () => {
                 <Photo src={photo} alt="photo"/>
                 <div>
                     <SectionTitle>About Me</SectionTitle>
-                    <Text>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet
+                    <SectionDescription>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet
                         donec
-                        morbi convallis pretium. Turpis tempus pharetra</Text>
+                        morbi convallis pretium. Turpis tempus pharetra</SectionDescription>
                     <ul>
                         <li>
                             <h3>UX</h3>
@@ -40,9 +41,6 @@ export const About = () => {
 const StyledAbout = styled.section`
     background-color: rgba(183, 251, 127, 0.89);
     min-height: 100vh;
-`
-
-const Text = styled.p`
 `
 
 const Photo = styled.img`
