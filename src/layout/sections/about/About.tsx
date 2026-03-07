@@ -11,9 +11,7 @@ export const About = () => {
                 <Photo src={photo} alt="photo"/>
                 <div>
                     <SectionTitle>About Me</SectionTitle>
-                    <SectionDescription>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet
-                        donec
-                        morbi convallis pretium. Turpis tempus pharetra</SectionDescription>
+                    <SectionDescription>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</SectionDescription>
                     <ul>
                         <li>
                             <h3>UX</h3>
